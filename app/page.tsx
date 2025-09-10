@@ -216,7 +216,7 @@ export default function Home() {
                   excerpt: "Built my first personal portfolio using pure HTML, CSS, and JavaScript to showcase early projects.",
                   date: "Sep 2024",
                   readTime: "4 min",
-                  url: "https://pycogram.github.io/my_portfolio_website"
+                  url: "https://daniel-portfolio-v1.vercel.app"
                 }
               ].map((post, index) => (
                 <article
