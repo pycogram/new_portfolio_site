@@ -101,7 +101,7 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="text-sm text-muted-foreground font-mono">Technologies</div>
                 <div className="flex flex-wrap gap-2">
-                  {["Rust", "TypeScript", "React", "Express", "RESTFUL API", "Node.js", "NextJs", "MongoDB", "Javascript", "PHP", "mySQL", "Git & Github"].map((skill) => (
+                  {["Rust", "TypeScript", "React", "Express", "RESTFUL API", "Node.js", "NextJs", "MongoDB", "Javascript", "PHP", "mySQL", "Git & Github", "Docker"].map((skill) => (
                     <span
                       key={skill}
                       className="px-3 py-1 text-xs border border-border rounded-full hover:border-muted-foreground/50 transition-colors duration-300"
