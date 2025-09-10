@@ -80,6 +80,10 @@ export default function Home() {
                     <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
                     Available for work 
                   </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+                    Available for collaborations 
+                  </div>
                 </div>
               </div>
             </div>
