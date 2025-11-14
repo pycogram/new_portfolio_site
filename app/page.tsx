@@ -69,7 +69,7 @@ export default function Home() {
 
               <div className="space-y-6 max-w-md">
                 <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">
-                  A Full Stack Developer interested in crafting digital experiences at the intersection of
+                  A full stack developer interested in crafting digital experiences at the intersection of
                   <span className="text-foreground"> design</span>,<span className="text-foreground"> technology</span>,
                   and
                   <span className="text-foreground"> user experience</span>.
@@ -101,7 +101,7 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="text-sm text-muted-foreground font-mono">Technologies</div>
                 <div className="flex flex-wrap gap-2">
-                  {["Rust", "TypeScript", "React", "Express", "RESTFUL API", "Node.js", "NextJs", "MongoDB", "Javascript", "PHP", "mySQL", "Git & Github", "Docker"].map((skill) => (
+                  {["Rust", "TypeScript", "React", "Express", "RESTFUL API", "Node.js", "NextJs", "MongoDB", "Javascript", "PHP", "mySQL", "Git & Github", "Docker", "Figma Design", "Framer Motion - Animation"].map((skill) => (
                     <span
                       key={skill}
                       className="px-3 py-1 text-xs border border-border rounded-full hover:border-muted-foreground/50 transition-colors duration-300"
@@ -129,7 +129,7 @@ export default function Home() {
                   role: "Blockchain Engineer (in training)",
                   // company: "Vercel",
                   description: "Exploring blockchain development, focusing on smart contracts, decentralized applications, and underlying infrastructures.",
-                  tech: ["Rust", "TypeScript", "Next.js"],
+                  tech: ["Rust", "TypeScript", "Next.js", "Anchor", "Soraban", "Web3js"],
                 },
                 {
                   year: "2025",
@@ -172,7 +172,7 @@ export default function Home() {
                     <p className="text-muted-foreground leading-relaxed max-w-lg">{job.description}</p>
                   </div>
 
-                  <div className="lg:col-span-4 flex flex-wrap gap-2 lg:justify-end mt-2 lg:mt-0">
+                  <div className="h-fit lg:col-span-4 flex flex-wrap gap-2 lg:justify-end mt-2 lg:mt-0">
                     {job.tech.map((tech) => (
                       <span
                         key={tech}
@@ -195,6 +195,20 @@ export default function Home() {
             <div className="grid gap-6 sm:gap-8 lg:grid-cols-2">
               {[
                 {
+                  title: "Zyrachain Website",
+                  excerpt: "As part of zyrachain core team, I was assigned tasks to be taken care of, which one of them is contributing to building organisational website",
+                  date: "Nov 2025",
+                  readTime: "3 days",
+                  url: "https://zyrachain-v1.vercel.app/"
+                },
+                {
+                  title: "Telegram trending Bot",
+                  excerpt: "Built a bot with RUST that fetches real time data from Pi blockchain and it rendered on a telegram channel",
+                  date: "Sept 2024",
+                  readTime: "2 days",
+                  url: "https://github.com/pycogram/pi_trending_bot"
+                },
+                {
                   title: "Smartcoin Mining Application",
                   excerpt: "Developed a token-based mining platform featuring a lock-to-earn bonus system, enabling users to send, receive, and interact with $SC tokens.",
                   date: "July 2025",
@@ -212,7 +226,7 @@ export default function Home() {
                   title: "Figma Design Projects",
                   excerpt: "Designed engaging meme-themed website interfaces in Figma and translated them into production-ready code.",
                   date: "Oct 2024",
-                  readTime: "6 min",
+                  readTime: "24 hours",
                   url: "https://res.cloudinary.com/ddgiav2pi/image/upload/v1757489538/Screenshot_2025-09-10_083056_u973db.png"
                 },
                 {
@@ -323,7 +337,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 sm:gap-8">
             <div className="space-y-2">
               <div className="text-sm text-muted-foreground">© {currentYear} Ifesinachi Daniel. All rights reserved.</div>
-              <div className="text-xs text-muted-foreground">Built with 💗 </div>
+              <div className="text-xs text-muted-foreground">Do have a nice moment. </div>
             </div>
 
             <div className="flex items-center gap-4">
